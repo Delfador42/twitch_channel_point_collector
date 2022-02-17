@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+body	collector.py	/^body = {$/;"	v
+client_id	collector.py	/^client_id = os.environ.get("CLIENT_ID")$/;"	v
+client_secret	collector.py	/^client_secret = os.environ.get("CLIENT_SECRET")$/;"	v
+find_dotenv	collector.py	/^from dotenv import load_dotenv, find_dotenv$/;"	i
+headers	collector.py	/^headers = {$/;"	v
+isLive	collector.py	/^isLive = open(isLiveFile)$/;"	v
+isLiveFile	collector.py	/^isLiveFile = '\/Users\/Tal\/fun\/py_fun\/twitch\/tree_Collector\/count.txt'$/;"	v
+isStreamOpen	collector.py	/^        isStreamOpen = True$/;"	v
+isStreamOpen	collector.py	/^    isStreamOpen = False$/;"	v
+isStreamOpen	collector.py	/^isStreamOpen = False$/;"	v
+keys	collector.py	/^keys = r.json();$/;"	v
+line1	collector.py	/^    line1 = line.strip()$/;"	v
+line1	collector.py	/^line1 = " "$/;"	v
+load_dotenv	collector.py	/^from dotenv import load_dotenv, find_dotenv$/;"	i
+os	collector.py	/^import os$/;"	i
+r	collector.py	/^r = requests.post('https:\/\/id.twitch.tv\/oauth2\/token', body)$/;"	v
+re	collector.py	/^import re$/;"	i
+requests	collector.py	/^import requests$/;"	i
+stream	collector.py	/^stream = requests.get('https:\/\/api.twitch.tv\/helix\/streams?user_login=' + streamer_name, headers=headers)$/;"	v
+streamIsOpen	collector.py	/^def streamIsOpen():$/;"	f
+streamIsOver	collector.py	/^def streamIsOver():$/;"	f
+stream_data	collector.py	/^stream_data = stream.json();$/;"	v
+streamer_name	collector.py	/^streamer_name = os.environ.get("STREAMER_NAME") $/;"	v
